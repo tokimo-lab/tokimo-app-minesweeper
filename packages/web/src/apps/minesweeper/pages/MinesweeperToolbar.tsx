@@ -39,7 +39,7 @@ export default function MinesweeperToolbar({
             onClick={() => onDifficulty(d)}
             className={`rounded-md px-2.5 py-1 text-xs font-medium transition-all ${
               difficulty === d
-                ? "bg-white text-black shadow-sm dark:bg-[#505052] dark:text-white"
+                ? "bg-surface-elevated text-black shadow-sm  dark:text-white"
                 : "text-black/50 hover:text-black/80 dark:text-white/50 dark:hover:text-white/80"
             }`}
           >
