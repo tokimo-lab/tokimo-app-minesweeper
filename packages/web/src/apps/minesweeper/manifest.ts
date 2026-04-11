@@ -3,7 +3,6 @@ import type { AppManifest } from "../_framework/types";
 
 export const manifest: AppManifest = {
   id: "minesweeper",
-  name: "Minesweeper",
   category: "system",
   defaultSize: { width: 380, height: 520 },
   noResize: true,
@@ -11,7 +10,7 @@ export const manifest: AppManifest = {
   icon: Bomb,
   image: "/page-icons/minesweeper.png",
   color: "#6366f1",
-  labelKey: "minesweeper",
+  appName: "dashboard.menu.minesweeper",
   order: 96,
   component: () => import("./pages"),
 };
