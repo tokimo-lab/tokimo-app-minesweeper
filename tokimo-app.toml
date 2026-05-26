@@ -1,0 +1,20 @@
+# Tokimo app manifest（供主 server 读取，注册 / spawn / 资源代理 / launchpad 展示）
+[app]
+id          = "minesweeper"
+display     = "Minesweeper"
+version     = "0.1.0"
+description = "Tokimo 扫雷游戏（纯前端，无后端，无数据库）"
+
+[runtime]
+lifecycle    = "resident"
+binary       = "tokimo-app-minesweeper"
+ui_dist      = "ui/dist"
+
+[ui]
+entry        = "assets/index.js"
+window_type  = "minesweeper"
+category     = "app"
+icon         = "Bomb"
+color        = "#6366f1"
+width        = 520
+height       = 620
