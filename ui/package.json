@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@tokimo/sdk": "github:tokimo-lab/tokimo-package-sdk#dea95e54f384a110a3dda319b9a36c9fe14151cb",
-    "@tokimo/ui": "github:tokimo-lab/tokimo-ui#ce11e88ab475a7933fe284966dac1f9fd09cca72",
+    "@tokimo/ui": "github:tokimo-lab/tokimo-ui#f0e2dd4",
     "lucide-react": "^1.11.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
