@@ -15,6 +15,7 @@ entry        = "assets/index.js"
 window_type  = "minesweeper"
 category     = "app"
 icon         = "Bomb"
+image        = "icon.png"
 color        = "#6366f1"
 width        = 520
 height       = 620
