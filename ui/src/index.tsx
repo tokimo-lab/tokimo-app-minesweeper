@@ -20,6 +20,11 @@ export default defineApp({
     defaultSize: { width: 520, height: 620 },
     category: "app",
   },
+  standalone: {
+    createWindow: (route) => ({ type: "minesweeper", route }),
+    getRoute: (window) =>
+      window.type === "minesweeper" ? (window.route ?? "/") : null,
+  },
   mount(container, ctx): Dispose {
     const root: Root = createRoot(container);
     root.render(
