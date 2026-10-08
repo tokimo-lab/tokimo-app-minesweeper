@@ -72,7 +72,7 @@ export default function MinesweeperPage({ ctx: _ctx }: MinesweeperPageProps) {
   const minesLeft = state.mines - state.flagCount;
 
   return (
-    <div className="flex h-full flex-col select-none">
+    <div className="app-safe-area flex h-full flex-col select-none bg-surface-base">
       <MinesweeperToolbar
         difficulty={state.difficulty}
         onDifficulty={handleDifficulty}
